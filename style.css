@@ -1,0 +1,183 @@
+/* Ved at sætte *, gælder disse regler for hele siden.*/
+*{
+/* Sætter alle ting i box */
+  box-sizing: border-box;
+/* Sætter margin og padding til 0, så man kan få elementer til at gå helt ud til kanten (nulstiller) */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Designet der skal gælde for hele <body> */
+body{
+  background-color: rgb(195, 155, 113);
+}
+
+/* Hvordan <nav> skal opføre sig */
+nav{
+  display: inline;
+  text-align: center;
+  color: white;
+}
+
+/* Hvordan teksten inde i <nav> skal opføre sig */
+nav a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+/* Hvordan teksten inde i <nav> skal opføre sig, når man holder musen henover */
+nav a:hover{
+  text-decoration: underline;
+  color: BlanchedAlmond;
+}
+
+/* Hvordan elementet med id'et "nicolehardt" skal opføre sig */
+#nicolehardt{
+  text-align: center;
+  font-size: 100%;
+  max-width: 100%;
+  font-family: 'Indie flower', cursive;
+  font-weight: bold;
+  height: 70px;
+  color: white;
+  padding-bottom: 10px;
+  margin: 35px auto;
+}
+
+/* Hvordan h1 elementer skal opføre sig - medmindre andet er bestemt */
+h1{
+  text-align: center;
+  font-size: 390%;
+  font-family: 'Indie flower', cursive;
+  font-weight: bold;
+  height: 70px;
+  color: white;
+  padding-bottom: 10px;
+  margin: 20px auto;
+}
+
+/* Hvordan h3 elementer skal opføre sig - medmindre andet er bestemt */
+h3{
+  text-align: center;
+  font-size: 160%;
+  font-family: 'Roboto', cursive;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 15px;
+  border-top-style: double;
+  border-bottom-style: double;
+  border-color: white;
+}
+
+/* Hvordan elementer med id'et "ommigmenu", "interessermenu" og "mithjemmenu" skal opføre sig */
+#ommigmenu, #interessermenu, #mithjemmenu{
+  border: 4px dashed white;
+  width: 45%;
+  border-radius: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 135%;
+  margin: 40px auto;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+/*Hvordan elementet med id'et "ommigmenu" skal opføre sig */
+#ommigmenu{
+  float: left;
+  margin-left: 2%;
+}
+
+/* Hvordan elementet med id'et "interessermenu" skal opføre sig */
+#interessermenu{
+  float: right;
+  margin-right: 4%;
+}
+
+/* Hvordan elementet med id'et "mithjemmenu" skal opføre sig */
+#mithjemmenu{
+  margin-top: 60%;
+}
+
+/* Hvordan footeren skal opføre sig */
+footer{
+  border-top-style: double;
+  border-bottom-style: double;
+  border-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Hvordan a elementer skal opføre sig - medmindre andet er bestemt */
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Hvordan a elementer skal opføre sig, når musen kører henover - medmindre andet er bestemt */
+a:hover{
+  text-decoration: underline;
+}
+
+/* Hvordan billeder inde i en div skal opføre sig - medmindre andet er bestemt */
+div img{
+  width: 80%;
+  max-width: 500px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Regler der skal gælde for både h5 og p elementer - medmindre andet er bestemt */
+h5, p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Hvordan h5 elementer skal opføre sig - medmindre andet er bestemt */
+h5{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 115%;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+/* Hvordan p elementer skal opføre sig - medmindre andet er bestemt */
+p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 83%;
+}
+
+/* Hvordan elementet med id'et "makeup" skal opføre sig */
+#makeup{
+  margin-bottom: 20px;
+}
+
+/* Hvordan a elementer i classen punkter skal opføre sig */
+.punkter a{
+  margin-left: 25px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 83%;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* Hvordan a elementer i classen punkter skal opføre sig, når musen køres henover */
+.punkter a:hover{
+  text-decoration: underline;
+}
